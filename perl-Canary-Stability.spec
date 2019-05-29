@@ -41,6 +41,6 @@ See the Makefile.PL in Coro or AnyEvent for usage examples.
 %make_install
 
 %files
-%doc COPYING Changes META.json META.yml MYMETA.yml README
+%doc COPYING Changes META.json META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
