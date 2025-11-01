@@ -29,8 +29,7 @@ See the Makefile.PL in Coro or AnyEvent for usage examples.
 %autosetup -n %{upstream_name}-%{version}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
-
+perl Makefile.PL INSTALLDIRS=vendor
 %make_build
 
 %check
