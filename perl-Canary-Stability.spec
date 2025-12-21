@@ -12,6 +12,7 @@ Group:      Development/Perl
 Url:        https://metacpan.org/pod/Canary::Stability
 Source0:    https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildArch:  noarch
 
